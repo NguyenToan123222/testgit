@@ -23,6 +23,15 @@ struct ContentView: View {
             }
             
             
+            HStack {
+                Image(systemName: "microphone.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 30)
+                Text("Nedd add more")
+            }
+            
+            
             
         }
         .padding()
