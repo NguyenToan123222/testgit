@@ -10,7 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-          
+            HStack {
+                Image(systemName: "microphone.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 30)
+                Text("Nedd add more")
+            }
             
         Text("Test")
             
