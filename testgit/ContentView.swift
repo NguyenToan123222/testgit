@@ -10,11 +10,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
+           
             HStack{
                 Spacer()
-                Text("Find Products")
+                Text(" Products")
                 
-                Text ("nh no em")
+                Text (" no em")
+            }
+            HStack{
+                Spacer()
+                Text("Find ")
+                
+                Text ("nh no ")
             }
         }
     }
